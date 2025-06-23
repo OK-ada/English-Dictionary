@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionnaire Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="dictionary-card">
+            <div class="header">
+                <div class="controls">
+                    <select class="font-select" id="fontSelect">
+                        <option value="serif">Serif</option>
+                        <option value="sans-serif">Sans Serif</option>
+                        <option value="monospace">Monospace</option>
+                    </select>
+                    <div class="theme-toggle" id="themeToggle">
+                        <div class="toggle-switch"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-container">
+                <input type="text" placeholder="keyboard" class="search-input" id="searchInput">
+            </div>
+
+            <div class="word-content">
+                <div class="word-header">
+                    <h1>keyboard</h1>
+                    <span class="phonetic">/kiːbɔːd/</span>
+                    <button class="play-button" id="playButton">▶</button>
+                </div>
+
+                <div class="word-type">
+                    <p class="type">noun</p>
+                    <p class="meaning">Meaning</p>
+                    <ul class="definitions">
+                        <li>(etc.) A set of keys used to operate a typewriter, computer etc.</li>
+                        <li>A component of musical instruments including the piano, organ, and harpsichord consisting of usually black and white keys that cause different tones to be produced when struck.</li>
+                        <li>A device with keys of a musical keyboard, used to control electronic sound-producing devices which may be built into or separate from the keyboard device.</li>
+                    </ul>
+                </div>
+
+                <div class="synonyms">
+                    <span>Synonyms</span>
+                    <a href="#" class="synonym-link">electronic keyboard</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
