@@ -1,2 +1,42 @@
+# Fichiers système Mac
 .DS_Store
+
+# Fichiers sensibles
 config.php
+
+# Répertoires de cache
+.cache/
+node_modules/
+vendor/
+
+# Fichiers temporaires
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Environnements locaux / outils IDE
+.env
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Fichiers de compilation (si un jour tu ajoutes SCSS, TypeScript, etc.)
+dist/
+build/
+
+# Fichiers de debug ou sauvegardes automatiques
+*.~*
+*~
+
+# Fichiers de base de données temporaires (si tu bosses avec SQLite)
+*.sqlite
+*.db
+
+# Fichiers de déploiement ou backup
+*.zip
+*.tar.gz
+
+# Fichiers que tu as supprimés du dépôt mais que tu veux garder en local
+
