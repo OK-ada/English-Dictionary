@@ -2,7 +2,8 @@
 .DS_Store
 
 # Fichiers sensibles
-config.php
+**/config.php
+
 
 # Répertoires de cache
 .cache/
